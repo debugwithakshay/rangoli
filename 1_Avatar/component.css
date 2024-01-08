@@ -1,0 +1,123 @@
+/* avatar sizes */
+
+.avatar--small {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  position: relative;
+}
+
+.avatar--medium {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  position: relative;
+}
+
+.avatar--large {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  position: relative;
+}
+
+.avatar_img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* for disabled avatar */
+.avatar--disabled--small {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  position: relative;
+  filter: brightness(0.7) opacity(0.6);
+}
+
+.avatar--disabled--medium {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  position: relative;
+  filter: brightness(0.7) opacity(0.6);
+}
+
+.avatar--disabled--large {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  position: relative;
+  filter: brightness(0.7) opacity(0.6);
+}
+
+/* avatar status */
+.--avatar_nostatus {
+  position: absolute;
+}
+
+.--avatar_online_status--small {
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  right: 0rem;
+  width: 1rem;
+  height: 1rem;
+  border: 1.7px solid rgb(255, 255, 255);
+  background-color: rgb(36, 194, 102);
+}
+
+.--avatar_online_status--medium {
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  right: 0rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  border: 1.7px solid rgb(255, 255, 255);
+  background-color: rgb(36, 194, 102);
+}
+
+.--avatar_online_status--large {
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  right: 0rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  border: 1.7px solid rgb(255, 255, 255);
+  background-color: rgb(36, 194, 102);
+}
+
+.--avatar_offline_status--small {
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  right: 0rem;
+  width: 1rem;
+  height: 1rem;
+  border: 1.7px solid rgb(255, 255, 255);
+  background-color: rgb(130, 130, 130);
+}
+
+.--avatar_offline_status--medium {
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  right: 0rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  border: 1.7px solid rgb(255, 255, 255);
+  background-color: rgb(130, 130, 130);
+}
+
+.--avatar_offline_status--large {
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  right: 0rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  border: 1.7px solid rgb(255, 255, 255);
+  background-color: rgb(130, 130, 130);
+}
