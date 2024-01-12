@@ -1,4 +1,4 @@
-.heading--extra--small {
+.heading--extra-small {
   font-family: "Poppins";
   font-size: 2rem;
   color: rgb(44, 44, 44);
@@ -22,13 +22,13 @@
   color: rgb(44, 44, 44);
 }
 
-.heading--extra--large {
+.heading--extra-large {
   font-family: "Poppins";
   font-size: 5.2rem;
   color: rgb(44, 44, 44);
 }
 
-.heading--super--large {
+.heading--super-large {
   font-family: "Poppins";
   font-size: 6rem;
   color: rgb(44, 44, 44);
