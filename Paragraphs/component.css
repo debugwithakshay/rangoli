@@ -1,0 +1,58 @@
+
+/* bold paragraphs */
+.paragraph--bold--small{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: rgb(128, 128, 128);
+  }
+  
+  .paragraph--bold--medium{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: rgb(128, 128, 128);
+  }
+  
+  .paragraph--bold--large{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 2rem;
+    color: rgb(128, 128, 128);
+  }
+  
+  .paragraph-bold--extra-large{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: rgb(128, 128, 128);
+  }
+        
+  /* light paragraphs */
+  .paragraph--light--small{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: rgb(128, 128, 128);
+  }
+  
+  .paragraph--light--medium{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: rgb(128, 128, 128);
+  }
+  
+  .paragraph--light--large{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 2.2rem;
+    color: rgb(128, 128, 128);
+  }
+  
+  .paragraph--light--extra-large{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: rgb(128, 128, 128);
+  }
