@@ -1,0 +1,35 @@
+.badge--green {
+  background-color: #a9eca9;
+  padding: 0.5rem;
+  color: #346034;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 1rem;
+}
+
+.badge--red {
+  background-color: #e59c9c;
+  padding: 0.5rem;
+  color: #8f2323;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 1rem;
+}
+
+.badge--yellow {
+  background-color: #e8e19e;
+  padding: 0.5rem;
+  color: #8f7d23;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 1rem;
+}
+
+.badge--grey {
+  background-color: #d1d1d1;
+  padding: 0.5rem;
+  color: #626262;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 1rem;
+}
