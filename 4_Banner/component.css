@@ -1,0 +1,33 @@
+.banner--red {
+  background-color: rgb(255, 170, 170);
+  color: #521c1c;
+}
+
+.banner--yellow {
+  background-color: rgb(255, 244, 149);
+  color: #796d22;
+}
+
+.banner--red,
+.banner--yellow {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 1.6rem;
+  text-overflow: ellipsis;
+  position: relative;
+}
+
+.alert--icon {
+  margin-right: 0.5rem;
+}
+
+.close--icon {
+  margin-left: 5rem;
+  font-size: 2rem;
+  position: absolute;
+  right: 2rem;
+}
