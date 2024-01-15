@@ -1,0 +1,101 @@
+/* button Primary */
+.button--primary {
+  padding: 1rem 1.5rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgb(126, 126, 248);
+  color: #fff;
+  font-size: 1.5rem;
+  transition: all 0.1s;
+}
+
+.button--primary:hover {
+  cursor: pointer;
+}
+
+.button--primary:active {
+  transform: scale(0.98);
+}
+
+/* button disabled */
+.button--disabled {
+  padding: 1rem 1.5rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgba(155, 155, 155, 0.426);
+  color: #767676;
+  font-size: 1.5rem;
+}
+
+.button--disabled:hover {
+  cursor: not-allowed;
+}
+
+/* outlined button */
+.button--outlined {
+  padding: 1rem 1.5rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  border: 2px solid rgb(126, 126, 248);
+  border-radius: 0.5rem;
+  background-color: transparent;
+  color: rgb(126, 126, 248);
+  font-size: 1.5rem;
+  transition: all 0.1s;
+}
+
+.button--outlined:hover {
+  cursor: pointer;
+}
+
+.button--outlined:active {
+  transform: scale(0.98);
+}
+
+/* button--with-icon */
+.button--with-icon {
+  padding: 1rem 1rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgb(126, 126, 248);
+  color: #fff;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  transition: all 0.1s;
+}
+
+.button--with-icon:hover {
+  cursor: pointer;
+}
+
+.button--with-icon:active {
+  transform: scale(0.98);
+}
+
+/* button icon */
+.button--icon {
+  padding: 0.5rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  border: 2px solid rgb(126, 126, 248);
+  border-radius: 0.5rem;
+  background-color: transparent;
+  color: rgb(126, 126, 248);
+  font-size: 1.5rem;
+  transition: all 0.1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button--icon:hover {
+  cursor: pointer;
+}
