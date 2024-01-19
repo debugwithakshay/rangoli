@@ -1,0 +1,25 @@
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.breadcrumb .breadcrumb--item {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: rgb(107, 107, 107);
+  font-weight: 500;
+}
+
+.breadcrumb .breadcrumb--item:hover {
+  text-decoration: underline;
+  color: rgb(41, 41, 41);
+}
+
+.breadcrumb .breadcrumb--item:last-child {
+  color: rgb(41, 41, 41);
+}
+
+.breadcrumb span {
+  color: rgb(107, 107, 107);
+}
