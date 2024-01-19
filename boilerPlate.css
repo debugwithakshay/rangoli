@@ -18,7 +18,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(250, 235, 215, 0.3);
+  flex-direction: column;
+  gap: 2rem;
 }
 
 /* component CSS here*/
