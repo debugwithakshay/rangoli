@@ -1,0 +1,24 @@
+.checkBox {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checked {
+  border: 2px solid rgb(228, 90, 90);
+  background-color: rgb(228, 90, 90);
+}
+
+.unchecked {
+  border: 2px solid rgb(228, 90, 90);
+  background-color: transparent;
+}
+
+.icon--check {
+  font-size: 2.2rem;
+  color: #fff;
+}
