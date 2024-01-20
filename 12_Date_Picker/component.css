@@ -1,0 +1,8 @@
+#date-picker {
+  padding: 1rem 1.5rem;
+  font-family: "Poppins";
+  border: 2px solid rgb(117, 117, 238);
+  border-radius: 0.5rem;
+  color: rgb(117, 117, 238);
+  font-weight: 500;
+}
