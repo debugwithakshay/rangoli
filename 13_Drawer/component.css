@@ -1,0 +1,39 @@
+/* Drawer */
+.drawer {
+  position: absolute;
+  width: 30rem;
+  height: 100vh;
+  background-color: #292e34;
+  left: -30rem;
+  padding: 5rem 2rem;
+  overflow-y: scroll;
+  transition: all 1s;
+}
+
+.drawer .icon--arrow-left {
+  position: absolute;
+  top: 1.5rem;
+  left: 1rem;
+  color: rgb(241, 241, 241);
+  cursor: pointer;
+}
+
+.button--primary {
+  padding: 1rem 1.5rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgb(126, 126, 248);
+  color: #fff;
+  font-size: 1.5rem;
+  transition: all 0.1s;
+}
+
+.button--primary:hover {
+  cursor: pointer;
+}
+
+.button--primary:active {
+  transform: scale(0.98);
+}
