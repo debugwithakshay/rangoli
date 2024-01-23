@@ -1,0 +1,35 @@
+.heading--extra-small {
+  font-family: "Poppins";
+  font-size: 2rem;
+  color: rgb(44, 44, 44);
+}
+
+.heading--small {
+  font-family: "Poppins";
+  font-size: 2.8rem;
+  color: rgb(44, 44, 44);
+}
+
+.heading--medium {
+  font-family: "Poppins";
+  font-size: 3.6rem;
+  color: rgb(44, 44, 44);
+}
+
+.heading--large {
+  font-family: "Poppins";
+  font-size: 4.5rem;
+  color: rgb(44, 44, 44);
+}
+
+.heading--extra-large {
+  font-family: "Poppins";
+  font-size: 5.2rem;
+  color: rgb(44, 44, 44);
+}
+
+.heading--super-large {
+  font-family: "Poppins";
+  font-size: 6rem;
+  color: rgb(44, 44, 44);
+}
